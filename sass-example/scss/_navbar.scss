@@ -1,0 +1,47 @@
+.link {
+    text-transform: uppercase;
+    color: $DarkGrey;
+    text-decoration: none;
+    font-family: Quicksand;
+    font-weight: 700;
+}
+
+.navbar_Image {
+    max-width: 100px;
+}
+
+.navigation {
+    background: $White;
+    height: 60px;
+    
+}
+
+.navigation_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .link  {
+      display: none;
+    }
+
+    .navigation_wrapper a.icon {
+      float: right;
+      display: block;
+    }
+    
+  }
+  .icon {
+    display: none;
+    color: $Black;
+  }
+

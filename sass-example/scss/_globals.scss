@@ -1,0 +1,49 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.button {
+    background-color:  $DarkGreen;
+    color: $White;
+    width: 121px;
+    height: 36px;
+    border-radius: $Radius;
+    text-transform: uppercase;
+    font-family:'Quicksand', sans-serif;
+    border: none;
+    font-weight: bold;
+}
+
+.button_boka {
+    background-color: $White;
+    color: $DarkGreen;
+    width: 121px;
+    height: 36px;
+    font-family:'Quicksand', sans-serif;
+    border-radius: $Radius;
+    text-transform: uppercase;
+    border: 1px solid;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-color: $DarkGrey;
+    width: 100%;
+    height: 280px;
+    color: $White;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+
+}
+

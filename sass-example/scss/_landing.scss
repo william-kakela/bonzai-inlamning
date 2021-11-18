@@ -1,0 +1,55 @@
+.hero_landing {
+    background: $Herolanding;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;     
+}
+
+.button_wrapper {
+    display: flex;
+    gap: 2rem;   
+}
+
+.landing_text {
+    margin: 20px;
+    padding: 20px;
+}
+
+.images_Homepage_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+.images_Homepage {
+    width: 100%;
+
+}
+
+
+
+ @media only screen and (max-width: 780px) {
+    .images_Homepage_container {
+        grid-template-columns:1fr;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .input_field {
+    
+        grid-template-columns:1fr;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+    }
+}
+        
+ 

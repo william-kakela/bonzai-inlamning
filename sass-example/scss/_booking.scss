@@ -1,0 +1,23 @@
+
+.text_booking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .images_Homepage_container {
+        grid-template-columns:1fr;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .input_field {
+        grid-template-columns:1fr;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}

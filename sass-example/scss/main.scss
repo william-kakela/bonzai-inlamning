@@ -1,0 +1,59 @@
+$DarkGrey: #1B1D22;
+$White: #FFFFFF;
+$DarkGreen: #21512C;
+$MiddleGrey: #595957;
+$Brown: #605048;
+$Black: #000000;
+
+$Radius: 6px;
+
+$Herolanding: url('../assets/photos/02-night.jpg') no-repeat center / cover;
+$HeroAbout: url('../assets/photos/07-day.jpg') no-repeat center / cover;
+
+@import 'typography';
+@import 'navbar';
+@import 'footer';
+@import 'globals';
+@import 'about';
+@import 'landing';
+@import 'uterum';
+@import 'booking';
+
+
+
+
+.bg_brown {
+    background-color: $Brown;
+}
+
+.bg_middlegrey {
+    background-color: $MiddleGrey;
+}
+
+.bg_darkgreen {
+    background-color: $DarkGreen;
+}
+
+.bg_darkgrey {
+    background-color: $DarkGrey;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+    
+
+    
+
+
+      
+    
+         
+     
